@@ -50,12 +50,12 @@
             }
         
         /*  Customization for checkboxes*/
-            .round
+            .checkmark
             {
                 position: inline-block;
                 margin-left: 0px;
             }
-            .round label
+            .checkmark label
             {
                 background-color: blue;
                 border-radius: 50%;
@@ -65,7 +65,7 @@
                 float: left;
                 width: 20px;
             }
-            .round label:after
+            .checkmark label:after
             {
                 border: 2px solid white;
                 border-top: none;
@@ -80,28 +80,28 @@
                 transform: rotate(-45deg);
             }
 
-            .round input[type="checkbox"]
+            .checkmark input[type="checkbox"]
             {
                 margin-left: -16px;
                 opacity: 0;
                 cursor: pointer;
             }
-            .round input[type="checkbox"]:checked + label
+            .checkmark input[type="checkbox"]:checked + label
             {
                 background-color: blue;
             }
-            .round input[type="checkbox"]:checked + label:after
+            .checkmark input[type="checkbox"]:checked + label:after
             {
                 opacity: 1;    
             }
-            .round2
+            .checkmark2
             {
                 padding-right: 12%;
                 position: inline-block;
                 margin-top: -20px;
                 float: right;
             }
-            .round2 label
+            .checkmark2 label
             {
                 background-color: blue;
                 border-radius: 50%;
@@ -111,7 +111,7 @@
                 float: left;
                 width: 20px;
             }
-            .round2 label:after
+            .checkmark2 label:after
             {
                 border: 2px solid white;
                 border-top: none;
@@ -126,17 +126,17 @@
                 transform: rotate(-45deg);
             }
 
-            .round2 input[type="checkbox"]
+            .checkmark2 input[type="checkbox"]
             {
                 margin-left: -16px;
                 opacity: 0;
                 cursor: pointer;
             }
-            .round2 input[type="checkbox"]:checked + label
+            .checkmark2 input[type="checkbox"]:checked + label
             {
                 background-color: blue;
             }
-            .round2 input[type="checkbox"]:checked + label:after
+            .checkmark2 input[type="checkbox"]:checked + label:after
             {
                 opacity: 1;    
             }
@@ -226,11 +226,11 @@
         <div class="container">
             <h1>Registration</h1>
             <hr>
-            <div class="round">
+            <div class="checkmark">
                     <input type="checkbox" id="checkbox1"/> Personal
                     <label for="checkbox1"></label>
             </div>
-            <div class="round2">
+            <div class="checkmark2">
                 <input type="checkbox" id="checkbox2"/>
                 <label for="checkbox2"></label> Company
             </div>
@@ -241,11 +241,11 @@
                 <i class="fa fa-user"></i><input type="text" placeholder="  Name"><p></p>
                 <i class="fa fa-shield"></i><input type="password" placeholder="  Password"><p></p>
             </form>
-            <div class="round">
+            <div class="checkmark">
                 <input type="checkbox" id="checkbox3"/> Male
                 <label for="checkbox4"></label>
             </div>
-            <div class="round2">
+            <div class="checkmark2">
                 <input type="checkbox" id="checkbox4"/>
                 <label for="checkbox4"></label> Female
             </div>
