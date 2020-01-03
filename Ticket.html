@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Ticket Purchase</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <style>
+        body
+        {
+            font-family: sans-serif;
+        }
+        .container
+        {
+            background: black;
+            padding: 6px;
+            margin-top: 5%;
+            margin-left: 25%;
+            margin-right: 48%;    
+        }
+        .Ticket
+        {
+            margin-top: -21px;
+            background: whitesmoke;
+            border-radius: 10px;
+        }
+        .Ticket h1
+        {
+            margin-left: 20px;
+            padding-top: 10px;
+        }
+        .Ticket p
+        {
+            margin-left: 20px;
+            margin-top: -5%;
+            margin-bottom: 3px;
+            font-size: 13px;
+        }
+        .Ticket .cut1
+        {
+            color: white;
+            background: black;
+            padding-right: 12px;
+            margin-left: -5px;
+            border-top-right-radius: 50px;
+            border-bottom-right-radius: 50px;
+        }
+        .Ticket .cut2
+        {
+            color: white;
+            background: black;
+            padding-right: 12px;
+            border-top-left-radius: 50px;
+            border-bottom-left-radius: 50px;
+        }
+        .Ticket .text
+        {
+            color: white;
+        }
+        .Ticket pre
+        {
+            margin-left: 20px;
+            font-weight: bolder;
+            font-size: 15px;
+        }
+        .Ticket label
+        {
+            font-size: 10px;
+            font-weight: normal;
+            color: darkgrey;
+        }
+        .Ticket input
+        {
+            width: 23px;
+            border-radius: 3px;
+            background: whitesmoke;
+        }
+        .Ticket hr
+        {
+            border: none;
+            border: 0.4px solid lightgrey;
+            margin-top: -5px;
+            margin-bottom: -5px;
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+        .Ticket input::-webkit-outer-spin-button, input::-webkit-inner-spin-button
+        {
+            -webkit-appearance: none;
+            margin: 0;
+        }
+        .custom
+        {
+            font-size: 30px;
+            margin-left: 10px;
+        }
+        .custom img
+        {
+            width: 30%;
+        }
+        .custom button
+        {
+            margin-left: 80px;
+            margin-bottom: 20px;
+            margin-top: -10px;
+            width: 30%;
+            height: 30px;
+            color: white;
+            background: darkred;
+            border-radius: 6px;
+        }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="Ticket">
+                <h1><i class="fa fa-ticket"></i> Buy Tickets</h1>
+                <p>No hidden fees. What you see is what you pay.</p>
+                <span class="cut1"></span><span class="text">- ---------------------------------------- ---------------------</span><span class="cut2"> </span>
+                <pre>General Admission          $23.32  <input type="number"  ></pre>
+                <hr>
+                <pre>VIP Ticket <label>WHAT'S INCLUDED?        </label>$23.32  <input type="number"></pre>
+                <label class="custom">
+                    <span class="custom"><i class="fa fa-lock"></i> <img src="payment-methods.jpg"></span> <button><i class="fa fa-shopping-cart"></i> Checkout</button>
+                </label>
+            </div>
+        </div>
+    </body>
+</html>
