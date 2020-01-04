@@ -80,17 +80,17 @@
                 transform: rotate(-45deg);
             }
 
-            .checkmark input[type="checkbox"]
+            .checkmark input[type="radio"]
             {
                 margin-left: -16px;
                 opacity: 0;
                 cursor: pointer;
             }
-            .checkmark input[type="checkbox"]:checked + label
+            .checkmark input[type="radio"]:checked + label
             {
                 background-color: blue;
             }
-            .checkmark input[type="checkbox"]:checked + label:after
+            .checkmark input[type="radio"]:checked + label:after
             {
                 opacity: 1;    
             }
@@ -126,17 +126,17 @@
                 transform: rotate(-45deg);
             }
 
-            .checkmark2 input[type="checkbox"]
+            .checkmark2 input[type="radio"]
             {
                 margin-left: -16px;
                 opacity: 0;
                 cursor: pointer;
             }
-            .checkmark2 input[type="checkbox"]:checked + label
+            .checkmark2 input[type="radio"]:checked + label
             {
                 background-color: blue;
             }
-            .checkmark2 input[type="checkbox"]:checked + label:after
+            .checkmark2 input[type="radio"]:checked + label:after
             {
                 opacity: 1;    
             }
@@ -227,11 +227,11 @@
             <h1>Registration</h1>
             <hr>
             <div class="checkmark">
-                    <input type="checkbox" id="checkbox1"/> Personal
+                    <input type="radio" id="checkbox1" name="type1"/> Personal
                     <label for="checkbox1"></label>
             </div>
             <div class="checkmark2">
-                <input type="checkbox" id="checkbox2"/>
+                <input type="radio" id="checkbox2" name="type1"/>
                 <label for="checkbox2"></label> Company
             </div>
             <hr>
@@ -242,11 +242,11 @@
                 <i class="fa fa-shield"></i><input type="password" placeholder="  Password"><p></p>
             </form>
             <div class="checkmark">
-                <input type="checkbox" id="checkbox3"/> Male
+                <input type="radio" id="checkbox3"  name="type2"/> Male
                 <label for="checkbox4"></label>
             </div>
             <div class="checkmark2">
-                <input type="checkbox" id="checkbox4"/>
+                <input type="radio" id="checkbox4" name="type2"/>
                 <label for="checkbox4"></label> Female
             </div>
             <br>
