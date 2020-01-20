@@ -1,0 +1,39 @@
+
+
+.container { 
+			position:relative; 
+}
+
+#area1:hover, #area2:hover, #area3:hover {
+	transform: scale(1.5);
+    opacity:0.5;
+}
+
+.imgA1 {
+		 position:absolute; top: 0px; left: 0px; z-index: 1; 
+} 
+.imgB1 {
+		 position:absolute; top: 600px; left: 250px; z-index: 3; 
+		 background:transparent;
+    display:block;
+    opacity:1;
+    position:absolute;
+    
+}
+
+.imgB2 {
+		 position:absolute; top: 650px; left: 300px; z-index: 3; 
+		 background:transparent;
+    display:block;
+    opacity:1;
+    position:absolute;
+    
+}
+.imgB3 {
+		 position:absolute; top: 650px; left: 140px; z-index: 3; 
+		 background:transparent;
+    display:block;
+    opacity:1;
+    position:absolute;
+    
+}

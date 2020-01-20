@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Book cabs now</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <style>
+            body
+            {
+                font-family: sans-serif;
+            }
+            .container
+            {
+                background: url(taxiback.jpg);
+                margin-left: 25%;
+                margin-right: 25%;
+                background-repeat: no-repeat;
+                background-size: cover;
+                opacity: 0.8;
+            }
+            .container h1
+            {
+                background-color: red;
+                padding: 20px;
+                color: white;
+                text-align: center;
+            }
+            .container .content
+            {
+                text-align: right;
+                font-size: 20px;
+                color: white;
+            }
+            .container .content input
+            {
+                border: 1px solid white;
+                background: black;
+                opacity: 1;
+                margin-left: 10px;
+                margin-right: 50px;
+                margin-top: 20px;
+                color: grey;
+                width: 60%;
+                height: 30px;
+            }
+            .container .content button
+            {
+                margin-right: 40%;
+                border: none;
+                background-color: red;
+                color: white;
+                padding: 10px;
+                padding-right: 40px;
+                padding-left: 40px;
+                margin-bottom: 30px;
+                cursor: pointer;
+            }
+            .container .content button:hover
+            {
+                transform: scale(0.9);
+                border: 1px solid gold;
+                background: black;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <h1><i class="fa fa-cab"></i>BOOK CAB NOW</h1>
+            <form class="content">
+                Name: <input type="text" placeholder=" Your Name">
+                <br>
+                Phone Number: <input type="number" placeholder=" Your Phone Number">
+                <br>
+                Pickup Location: <input type="text" placeholder=" Enter an origin location">
+                <br>
+                Drop Location: <input type="text" placeholder=" Enter a destinaiton location">
+                <br>
+                Pickup Date: <input type="date" placeholder=" mm/dd/yy">
+                <br>
+                Pickup Time: <input type="time" placeholder=" Hrs:Min">
+                <br>
+                <br>
+                <button>BOOK MY CAB</button>
+            </form> 
+        </div>
+    </body>
+</html>

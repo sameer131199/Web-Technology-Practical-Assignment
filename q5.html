@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Buy Tickets</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <style>
+            body
+            {
+                font-family: sans-serif;
+                padding: 0;
+                margin: 0;
+            }
+            .container
+            {
+                background-color: #010203;
+                padding: 7px;
+                margin-left: 35%;
+                margin-right: 35%;
+                margin-top: 10%;
+            }
+            .content
+            {
+                background-color: rgb(235, 226, 226);
+                padding: 1px;
+                border-radius: 10px;
+            }
+            .content h1,h5
+            {
+                margin-left: 30px;
+            }
+            .content h5
+            {
+                margin-top: -5%;
+                color: rgb(134, 129, 129);
+                margin-bottom: -1px;
+            }
+            .content .border
+            {
+                background-color: black;
+                float: left;
+                padding: 7px;
+                border-top-right-radius: 6px;
+                border-bottom-right-radius: 6px;
+                margin-left: -5px;
+                padding-right: 3px;
+            }
+            .content .border2
+            {
+                background-color: black;
+                float: right;
+                padding: 7px;
+                border-top-left-radius: 10px;
+                border-bottom-left-radius: 10px;
+                margin-right: -5px;
+                padding-left: 3px;
+            }
+            .content h4
+            {
+                margin-left: 30px;
+            }
+            .content .caption
+            {
+                font-size: 9px;
+                color: rgb(134, 129, 129);;
+            }
+            hr
+            {
+                margin-top: -7px;
+                margin-bottom: -7px;
+            }
+            .content .General-Admission, .VIP-Ticket
+            {
+                float: right;
+                margin-top: -40px;
+                margin-left: 20px;  
+            }
+            .content .General-Admission input, .VIP-Ticket input
+            {
+                margin-right: -130px;
+                width: 25%;
+                border: 1px solid grey;;
+                border-radius: 3px;
+                background: rgb(235, 226, 226);
+            }
+            .content input::-webkit-inner-spin-button, input::-webkit-outer-spin-button
+            {
+                -webkit-appearance: none;
+                margin: 0;
+            }
+            .footer
+            {
+                border: 0.7px solid grey;
+                border-radius: 5px;
+                padding-top: 15px;
+                margin-left: 30px;
+                background: lightgray;
+            }
+            .footer img
+            {
+                width: 30%;
+                margin-left: 5%;
+                margin-right: 5px;
+            }
+            
+            .footer .fa-cc-amex, .fa-cc-visa, .fa-cc-mastercard, .fa-lock
+            {
+                font-size: 30px;
+                margin-left: 5px;
+                margin-right: 5px;
+                margin-top: 5px;
+                color: grey;
+            }
+            .content button
+            {
+                cursor: pointer;
+                margin-Right: 20px;
+                padding: 8px;
+                font-weight: bolder;
+                background: darkred;
+                color: white;
+                border: none;
+                border-radius: 5px;
+                float: right;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <form>
+            <div class="content">
+                <h1><i class="fa fa-ticket"></i> Buy Tickets</h1>
+                <h5>No hidden fees, what you see is what you pay</h5>
+                <label class="border"></label>             <label class="border2"></label>
+                <br>
+                <h4>General Admission</h4>  <label class="General-Admission"><strong>$23.32</strong> <input type="number"></label>
+                <hr>
+                <h4>VIP Ticket <label class="caption">WHAT'S INCLUDED?</label></h4> <label class="VIP-Ticket"><strong>$33.87</strong> <input type="number"></label>
+                <label class="footer">
+                <i class="fa fa-lock"></i><i class="fa fa-cc-visa"></i><i class="fa fa-cc-mastercard"></i><i class="fa fa-cc-amex"></i>
+                </label>
+                <button><i class="fa fa-shopping-cart"></i> Checkout</button>
+                <p></p>
+            </div>
+            </form>
+        </div>
+    </body>
+</html>

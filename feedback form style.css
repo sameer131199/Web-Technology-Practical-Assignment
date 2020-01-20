@@ -1,0 +1,46 @@
+body
+{
+	margin: 0;
+	padding: 0;
+}
+.container
+{
+	margin: 10%;
+	margin-left: 25%;
+	margin-right: 40%;
+	padding: 1px;
+	background: black;
+}
+.feedback
+{
+	background: white;
+	border-radius: 6px;
+	margin-top: -21px;
+}
+.feedback p,h1,button,input
+{
+	margin-left: 10px;
+}
+.feedback textarea
+{
+	width:96.5%;
+	height: 100px;
+}
+.feedback pre
+{
+	font-size: 13px;
+	font-weight: bold;
+}
+.feedback button
+{
+	width: 96%;
+	margin-bottom: 5px;
+	height: 30px;
+	background: orange;
+	border: none;
+	border-radius: 3px;
+	color: white;
+	font-family: arial;
+	font-size: 15px;
+	cursor: pointer;
+}
